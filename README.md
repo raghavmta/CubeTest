@@ -11,6 +11,7 @@ Find the project here: https://hub.docker.com/r/raghavmittal97/cube_t
 Make sure to have flask and flask_mysqldb installed on your system.
 
 ```
+pip install Flask
 pip install Flask-MySQLdb
 ```
 
@@ -22,12 +23,16 @@ If the docker file does not run:
 Unzip the cube.zip file
 ```
 
-And
+And then
 
 ```
 run Cube.py in the directory
 ```
+Finally
 
+```
+visit 127.0.0.1:5000 (default) in your browser
+```
 ## Deployment
 
 Open your browser, by default the homepage should run on 127.0.0.1:5000. Enter details manually for a test run (make sure to run Cube.py before you do this!)
