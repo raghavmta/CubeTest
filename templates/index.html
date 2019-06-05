@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<HTML>
+<BODY bgcolor = "cyan">
+<form method="POST" action="">
+	<center>
+	<H1>Single Entry</H1> <br>
+	User ID <input type = "number" name= "uid" required /> <br>
+	Time of Event <input type = "text" name = "tsp" required /> <br>
+	Location of Event <input type = "text" name= "ll" /> <br>
+	Noun<select name="nn">
+        <optgroup label="Noun">
+        <option value="Bill">Bill</option>
+        <option value="FDBK">FDBK</option>
+    </optgroup>
+    </select><br>
+    Verb<select name="vb">
+        <optgroup label="Verb">
+        <option value="Pay">Pay</option>
+        <option value="Post">Post</option>
+    </optgroup>
+    </select><br>
+	Time Spent <input type = "number" name = "tm" /> <br>
+	Properties <input type = "text" name = "pts" /> <br>
+	<input type = "submit">
+
+	<H1>Multiple Entries</H1>
+	<h3>(We currently deal with only Single Entries, inputting can be automated)</h3>
+	<p> Enteries should be separated by a dollar sign ($) Here's an example:<br>
+		<br>
+		{'noun': 'bill', 'userid': 178765, 'ts': '20170315 134850', 'latlong': '19.07,72.87', 'verb': 'pay', 'timespent': 72, 'properties': {'bank': 'hdfc', 'merchantid': 234, 'value': 139.5, 'mode': 'netbank'}}${'noun': 'fdbk', 'userid': 178765, 'ts': '20170315 145250', 'latlong': '19.07,72.87', 'verb': 'post', 'timespent': null, 'properties': {'text': 'the bank page took too long to load'}}
+	</p>
+	<tr>
+    <td>Select a File to Load:</td>
+    <td><input type="file" id="fileToLoad"></td>
+    <td><button onclick="loadFileAsText()">Load Selected File</button><td>
+	</tr>
+
+</form>
+</BODY>
+</HTML>
