@@ -35,7 +35,7 @@ visit 127.0.0.1:5000 (default) in your browser
 ```
 ## Deployment
 
-Open your browser, by default the homepage should run on 127.0.0.1:5000. Enter details manually for a test run (make sure to run Cube.py before you do this!)
+Open your browser, by default the homepage should run on 127.0.0.1:5000. Enter details manually for a test run (make sure you have logs.txt in the directory and make sure to run Cube.py before you do this!)
 
 ## Built With
 
